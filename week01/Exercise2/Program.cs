@@ -1,4 +1,4 @@
-//--------------code construction-----------
+//-------------code construction-----------
 
 using System;
 
@@ -6,22 +6,22 @@ class Program
 {
     static void Main(string[] args)
 
-//---------Ask the user for the grade ---------
+//-------Ask the user for the grade -------
     {
         Console.Write("What is your grade percentage? ");
 
 //---------Convert the text to a number-------
         string userInput = Console.ReadLine();
 
-//--------Variable to store the letter grade------
+//-----Variable to store the letter grade-----
 
         int grade = int.Parse(userInput);
 
 
-// -------Variable to store the letter grade----
+// -----Variable to store the letter grade----
         string letter = "";
 
-//-----------defining the notes in letters-----------
+//------defining the notes in letters---------
 
 // -----------first part-------------
         if (grade >=90)
