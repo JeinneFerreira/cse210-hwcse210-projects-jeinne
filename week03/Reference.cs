@@ -1,0 +1,78 @@
+public class Reference
+{
+// =====================================================
+// Private attributes
+// =====================================================
+
+    private string _book;
+
+    private int _chapter;
+
+    private int _verse;
+
+    private int _endVerse;
+
+// =====================================================
+// Constructor for single verse
+// Example:
+// John 3:16
+// =====================================================
+
+    public Reference(
+        string book,
+        int chapter,
+        int verse)
+    {
+        _book = book;
+
+        _chapter = chapter;
+
+        _verse = verse;
+
+        _endVerse = 0;
+    }
+
+// =====================================================
+// Constructor for verse range
+// Example:
+// Proverbs 3:5-6
+// =====================================================
+
+    public Reference(
+        string book,
+        int chapter,
+        int verse,
+        int endVerse)
+    {
+        _book = book;
+
+        _chapter = chapter;
+
+        _verse = verse;
+
+        _endVerse = endVerse;
+    }
+
+// =====================================================
+// Function: Get formatted reference
+// =====================================================
+
+    public string GetDisplayText()
+    {
+// ----------- Single verse -----------
+
+        if (_endVerse == 0)
+        {
+            return
+                $"{_book} {_chapter}:{_verse}";
+        }
+
+// ----------- Verse range -----------
+
+        else
+        {
+            return
+                $"{_book} {_chapter}:{_verse}-{_endVerse}";
+        }
+    }
+}
