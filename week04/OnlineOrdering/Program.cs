@@ -16,6 +16,7 @@ class Program
                 "USA"
             );
 
+
         Customer customer1 =
             new Customer(
                 "John Smith",
