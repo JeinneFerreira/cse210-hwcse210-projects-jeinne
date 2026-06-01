@@ -4,6 +4,7 @@ public class Customer
 // ---------------- Private attributes ----------------- 
 // =====================================================
 
+
     private string _name;
 
     private Address _address;
