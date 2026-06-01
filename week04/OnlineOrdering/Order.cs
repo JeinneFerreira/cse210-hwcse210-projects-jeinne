@@ -35,6 +35,7 @@ public class Order
 // ------- Function: Calculate total price -------------
 // =====================================================
 
+
     public double CalculateTotalCost()
     {
         double total = 0;
