@@ -4,6 +4,7 @@ public class Comment
 // ------------ Private attributes----------------------
 // =====================================================
 
+
     private string _personName;
 
     private string _commentText;
