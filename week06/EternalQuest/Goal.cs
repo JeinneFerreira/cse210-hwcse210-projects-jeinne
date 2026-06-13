@@ -32,3 +32,6 @@ public abstract class Goal
     // Returns a string representation for saving to a file.
     public abstract string GetStringRepresentation();
 }
+
+
+//
