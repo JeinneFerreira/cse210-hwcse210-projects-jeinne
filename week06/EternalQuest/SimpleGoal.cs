@@ -40,3 +40,6 @@ public class SimpleGoal : Goal
         return $"SimpleGoal:{_name},{_description},{_points},{_isComplete}";
     }
 }
+
+
+//
