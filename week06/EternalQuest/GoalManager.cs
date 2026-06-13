@@ -122,3 +122,6 @@ public class GoalManager
         Console.WriteLine($"You earned {earned} points!");
     }
 }
+
+
+//
