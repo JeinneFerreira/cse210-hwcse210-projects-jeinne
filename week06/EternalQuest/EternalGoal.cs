@@ -31,3 +31,7 @@ public class EternalGoal : Goal
         return $"EternalGoal:{_name},{_description},{_points}";
     }
 }
+
+
+
+//
